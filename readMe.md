@@ -1,8 +1,18 @@
-## veizh-plugin-dropdown
+## easy-dropdown-react
+# Installation
+
+```js
+use "npm install easy-dropdown-react"
+```
+
+# Import 
+```js
+const Dropdown = require("veizh-plugin-dropdown")
+```
 # Description
 
 ```js
-Package js for dropdowns
+Make Easy Dropdown With React using component
 ```
 # CreateDropdown
 
@@ -10,23 +20,18 @@ Package js for dropdowns
 /**** Start by importing the module ****/
 
 
-const dropdown = require("veizh-plugin-dropdown")
+const Dropdown = require("veizh-plugin-dropdown")
+
 /**** Define a useState hook ****/
 
 let [selectState,setSelectState]=useState('Select a State')
-/**** create an array of strings  ****/
 
-/**** tips ****/
-/* Priority to element.name if u are using an array of objects. otherwise it will take the element */
+/**** Create an array of strings  ****/
 
-currentStatesArray  = [
-    "South Carolina",
-    "South Dakota",
-   "Tennessee"
-]
+currentStatesArray  = ["South Carolina","South Dakota","Tennessee"]
 
 return (<Dropdown initial={selectState} arrayOptions={currentStatesArray} mutateur={setSelectState} />)
 
-/**** use inspector to modify the style with css ****/
+/**** Use inspector to modify the style with css ****/
 
 ```
