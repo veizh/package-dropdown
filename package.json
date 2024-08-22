@@ -1,6 +1,6 @@
 {
   "name": "easy-dropdown-react",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "Make Easy Dropdown With React ",
   "main": "dist/bundle.js",
   "scripts": {

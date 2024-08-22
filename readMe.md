@@ -15,6 +15,10 @@ const dropdown = require("veizh-plugin-dropdown")
 
 let [selectState,setSelectState]=useState('Select a State')
 /**** create an array of strings  ****/
+
+/**** tips ****/
+/* Priority to element.name if u are using an array of objects. otherwise it will take the element */
+
 currentStatesArray  = [
     "South Carolina",
     "South Dakota",
