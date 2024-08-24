@@ -7,7 +7,7 @@ use "npm install easy-dropdown-react"
 
 # Import 
 ```js
-const Dropdown = require("veizh-plugin-dropdown")
+const Dropdown = require("easy-dropdown-react")
 ```
 # Description
 
@@ -20,7 +20,7 @@ Make Easy Dropdown With React using component
 /**** Start by importing the module ****/
 
 
-const Dropdown = require("veizh-plugin-dropdown")
+const Dropdown = require("easy-dropdown-react")
 
 /**** Define a useState hook ****/
 
